@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+span {
+    font-size: 25px;
+    text-align: center;
+    margin: 10px;
+}
+
+p {
+    padding-top: 10px;
+    margin: 10px;
+}
+
+@media all and (max-width: 800px) {
+    #pa {
+        text-decoration: none!important;
+
+        width: 10%;
+        height: 10%;
+
+        margin: 10px;
+        padding: 0.25rem;
+    }
+}
